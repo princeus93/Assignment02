@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.UI;  //Required to use "Text" object and other UI elements
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -53,6 +54,7 @@ public class PlayerController : MonoBehaviour
             if(count >= 16)
             {
                 winText.gameObject.SetActive(true);
+                SceneManager.LoadScene("ExitScene");
             }
         }
         

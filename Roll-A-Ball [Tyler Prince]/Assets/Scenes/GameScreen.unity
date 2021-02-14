@@ -730,7 +730,7 @@ MonoBehaviour:
   speed: 800
   scoreText: {fileID: 1064504196}
   winText: {fileID: 1954399517}
-  size: 0
+  size: 1
 --- !u!54 &165273144
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -776,7 +776,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 496c51ce0b23a4a6aab80ffe23abdee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
 --- !u!1001 &236283498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1752,6 +1751,7 @@ GameObject:
   - component: {fileID: 804279231}
   - component: {fileID: 804279230}
   - component: {fileID: 804279229}
+  - component: {fileID: 804279232}
   m_Layer: 5
   m_Name: SpeedPanel
   m_TagString: Untagged
@@ -1779,7 +1779,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 468, y: 383}
+  m_AnchoredPosition: {x: 470, y: 383}
   m_SizeDelta: {x: 300, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!64 &804279229
@@ -1845,6 +1845,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804279227}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &804279232
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804279227}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2a5f0819b7f534b39979b8dec19ff372, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &805615963
 GameObject:
   m_ObjectHideFlags: 0
